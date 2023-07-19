@@ -17,12 +17,15 @@ export WINEPREFIX=~/.wine && WINEARCH=win32 winecfg
 
 Clone this repo
 
-Copy your .asm program to programs/ directory
+## Use
+
+Copy your .asm program to **dregs-masm32-wine/programs/** directory
 
 ```
 cd dregs-masm32-wine
 sh masm32.sh program_name_without_dot_asm
 ```
+
 ## Important
 * Place your
 * programs under the folder `programs`
