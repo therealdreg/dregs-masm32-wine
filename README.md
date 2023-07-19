@@ -1,6 +1,6 @@
 # dregs-masm32-wine
 
-Dreg's fork Simple installer to run MASM on linux via terminal
+Dreg's fork Simple installer to run MASM on linux via terminal (Masm32v11r)
 
 This is a simple shell script that compile, link and execute masm32 programs with ml.exe
 
