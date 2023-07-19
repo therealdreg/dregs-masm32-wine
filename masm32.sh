@@ -17,4 +17,4 @@ mv ./$1.exe /tmp/$1.exe
 wineconsole /tmp/$1.exe
 cp *.ro /tmp/
 rm $1.*
-} 2>&1  |  tee logmasm32.log
+} 2>&1  |  tee ./logmasm32.log
