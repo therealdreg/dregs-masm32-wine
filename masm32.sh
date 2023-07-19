@@ -5,7 +5,7 @@ echo ""
 cp $PP/$1.asm ./
 echo "Mounting..."
 echo ""
-wine ml.exe -c -Zi -Fl -nologo $1.asm
+wine ml.exe -c -Zi -Fl -nologo /coff $1.asm
 echo ""
 echo "Linking..."
 echo ""
